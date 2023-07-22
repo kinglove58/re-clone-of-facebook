@@ -104,8 +104,10 @@ nav .nav-bar-right ul li button {
     padding: 5px 11px;
     border-radius: 10px;
     border: 0;
+    background-color: blue;
 }
 
-nav .nav-bar-right ul li:nth-child(2):hover{
+nav .nav-bar-right ul li button:hover{
     background-color: red;
 }
+
