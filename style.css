@@ -217,13 +217,14 @@ nav .nav-bar-right .profile-icon img {
     margin-bottom: 15px;
 }
 
-.Home-container .right-home .right-sidebar .event-links .left-event-link a {
+.Home-container .right-home .right-sidebar .event-links .left-event-link a, .Home-container .right-home .social-event-1 .right-social-event-1 a {
     text-decoration: none;
     opacity: 0.9;
 }
 
-.Home-container .right-home .right-sidebar .event-links .left-event-link a:hover {
+.Home-container .right-home .right-sidebar .event-links .left-event-link a:hover, .Home-container .right-home .social-event-1 .left-social-event-1:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .Home-container .right-home .social-event-1 .left-social-event-1 {
@@ -234,6 +235,8 @@ nav .nav-bar-right .profile-icon img {
     position: relative;
     width: 65px;
     height: 65px;
+    opacity: 0.8;
+    margin-right: 30px;
 
 }
 
@@ -245,5 +248,25 @@ nav .nav-bar-right .profile-icon img {
     width: 100%;
     border-radius: 0 0 5px 5px;
     margin-bottom: -2px;
-    color: red;
+    color: white;
+}
+
+.Home-container .right-home .social-event-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.Home-container .right-home .social-event-1 .right-social-event-1 img {
+    width: 10px;
+    margin-right: 5px;
+}
+
+
+.right-home .right-bar-post {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
