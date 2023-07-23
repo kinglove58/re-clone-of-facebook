@@ -270,3 +270,23 @@ nav .nav-bar-right .profile-icon img {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+.right-home .right-bar-friend-online {
+    width: 100%;
+}
+
+.right-home .right-bar-friend-online img {
+    width: 45px;
+    border-radius:50%;
+    margin:0 10px 10px 0;
+}
+
+.right-home .right-bar-friend-online a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
