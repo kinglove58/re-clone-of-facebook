@@ -203,7 +203,12 @@ nav .nav-bar-right .profile-icon img {
 }
 
 .middle-home .story-gallery .story img {
-    
+    border-radius: 50%;
+    width: 50px;
+    border: 5px solid #1876f2;
+    position: absolute;
+    top: 5px;
+    left: 10px;
 }
 
 /* -----------RIGHT CONTENT------------------ */
