@@ -214,9 +214,11 @@ nav .nav-bar-right .profile-icon img {
 
 .middle-home .story-gallery .story p {
     color: white;
+    width: 100%;
     position: absolute;
     bottom: 20px;
     left: 30px;
+    font-size: 14px;
 }
 
 .middle-home .story-gallery .story-upload p {
@@ -231,7 +233,24 @@ nav .nav-bar-right .profile-icon img {
 }
 
 .middle-home .story-gallery .story-1 {
-    background: url(img/status-1.png);
+    background: linear-gradient(transparent, rgb(0, 0, 0, 0.5)), url(img/status-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.middle-home .story-gallery .story-2 {
+    background: linear-gradient(transparent, rgb(0, 0, 0, 0.5)), url(img/status-3.png);
+    background-position: center;
+    background-size: cover;
+}
+.middle-home .story-gallery .story-3 {
+    background: linear-gradient(transparent, rgb(0, 0, 0, 0.5)), url(img/status-4.png);
+    background-position: center;
+    background-size: cover;
+}
+.middle-home .story-gallery .story-4 {
+    background: linear-gradient(transparent, rgb(0, 0, 0, 0.5)), url(img/status-5.png);
+    background-position: center;
+    background-size: cover;
 }
 
 /* -----------RIGHT CONTENT------------------ */
