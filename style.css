@@ -213,8 +213,17 @@ nav .nav-bar-right .profile-icon img {
 }
 
 .middle-home .story-gallery .story p {
-    text-align: center;
     color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.middle-home .story-gallery .story-upload p {
+    left: 10px;
+}
+
+.middle-home .story-gallery .story:first-child img {
     position: absolute;
     bottom: 10px;
 }
