@@ -195,7 +195,8 @@ nav .nav-bar-right .profile-icon img {
 .middle-home .story-gallery .story {
     background: linear-gradient(transparent, rgb(0, 0, 0, 0.5)), url(img/status-1.png);
     flex-basis: 18%;
-   /*  border-radius: 10px; */
+    border-radius: 10px;
+    margin-top: 10px;
     background-size: cover;
     background-position: center;
     padding-top: 32%;
@@ -209,10 +210,13 @@ nav .nav-bar-right .profile-icon img {
     position: absolute;
     top: 5px;
     left: 10px;
-    
 }
 
-
+.middle-home .story-gallery .story p {
+    text-align: center;
+    color: white;
+    position: absolute;
+}
 
 /* -----------RIGHT CONTENT------------------ */
 .Home-container .right-home {
