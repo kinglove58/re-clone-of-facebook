@@ -216,6 +216,7 @@ nav .nav-bar-right .profile-icon img {
     text-align: center;
     color: white;
     position: absolute;
+    bottom: 10px;
 }
 
 /* -----------RIGHT CONTENT------------------ */
