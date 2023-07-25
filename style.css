@@ -220,12 +220,18 @@ nav .nav-bar-right .profile-icon img {
 }
 
 .middle-home .story-gallery .story-upload p {
-    left: 10px;
+    left: 20px;
 }
 
-.middle-home .story-gallery .story:first-child img {
-    position: absolute;
-    bottom: 10px;
+.middle-home .story-gallery .story-upload img {
+    bottom: 40px;
+    left: 30px;
+    top: unset;
+    width: 40px;
+}
+
+.middle-home .story-gallery .story-1 {
+    background: url(img/status-1.png);
 }
 
 /* -----------RIGHT CONTENT------------------ */
