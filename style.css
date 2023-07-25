@@ -184,6 +184,7 @@ nav .nav-bar-right .profile-icon img {
 /* -----------MIDDLE CONTENT------------------ */
 .middle-home {
     flex-basis: 47%;
+    margin: 0 5px;
 }
 
 .middle-home .story-gallery {
@@ -252,6 +253,12 @@ nav .nav-bar-right .profile-icon img {
     background-position: center;
     background-size: cover;
 }
+
+.story-1:hover, .story-2:hover, .story-3:hover, .story-4:hover, .story-upload:hover {
+    transform: scale(1.05);
+}
+
+
 
 /* -----------RIGHT CONTENT------------------ */
 .Home-container .right-home {
