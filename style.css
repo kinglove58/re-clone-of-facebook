@@ -324,21 +324,36 @@ nav .nav-bar-right .profile-icon img {
     margin: 10px;
 }
 
+.post-file {
+     background-color: white;
+     margin: 15px 0;
+}
+
 .post-file .profile-post-2 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 0 10px;
 }
 
 .post-file .content-post {
     width: 100%;
+    padding: 0 10px;
+    
 }
 
 .post-file .content-post img {
     width: 100%;
     border-radius: 10px;
+    margin: 10px 0;
 }
 
+.post-file .icon-post {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
 .post-file .icon-post ul {
     display: flex;
     align-items: center;
@@ -355,10 +370,18 @@ nav .nav-bar-right .profile-icon img {
     width: 30px;
 }
 
-.content-post .profile-post img {
+.content-post .icon-post .profile-post  img {
     border-radius: 50%;
     width: 30px;
 }
+
+.post-file .icon-post .profile-post .this {
+    position: absolute;
+    right: 10px;
+
+}
+
+
 
 /* -----------RIGHT CONTENT------------------ */
 .Home-container .right-home {
