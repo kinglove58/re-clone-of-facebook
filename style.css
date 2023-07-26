@@ -261,7 +261,10 @@ nav .nav-bar-right .profile-icon img {
 .post-container {
     background: white;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 20px;
+    display: block;
+    align-self: center;
+    width: 100%;
 }
 
 .post-container .profile-post, .post-container .post-button {
@@ -289,14 +292,37 @@ nav .nav-bar-right .profile-icon img {
     bottom: -2px;
 }
 
+.post-container .post-button {
+    width: 100%;
+}
 .post-container .post-button input {
     border: 0;
-    width: 400px;
+    outline: 0;
+    width: 500px;
     height: 100%;
-    padding: 20px;
+    padding: 40px 0;
+    border-bottom: 1px solid gray;
 }
 
-.post-container .post-icons {}
+.post-container .post-icons ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.post-container .post-icons ul li a {
+   text-decoration: none;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   color: rgb(39, 37, 37);
+}
+
+.post-container .post-icons ul li img {
+    width: 20px;
+    margin: 10px;
+}
 
 
 /* -----------RIGHT CONTENT------------------ */
