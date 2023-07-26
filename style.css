@@ -258,7 +258,45 @@ nav .nav-bar-right .profile-icon img {
     transform: scale(1.05);
 }
 
+.post-container {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
 
+.post-container .profile-post, .post-container .post-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.post-container .profile-post p {
+    color: gray;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.post-container .profile-post img {
+    border-radius: 50%;
+    width: 40px;
+}
+.post-container .profile-post small {
+    color: gray;
+    position: absolute;
+    left: 50px;
+    bottom: -2px;
+}
+
+.post-container .post-button input {
+    border: 0;
+    width: 400px;
+    height: 100%;
+    padding: 20px;
+}
+
+.post-container .post-icons {}
 
 
 /* -----------RIGHT CONTENT------------------ */
