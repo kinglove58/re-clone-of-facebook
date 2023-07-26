@@ -99,6 +99,7 @@ nav .nav-bar-right .profile-icon img {
 
 .Home-container {
     display: flex;
+    align-items: start;
     padding-left: 70px;
     background-color: whitesmoke;
 }
@@ -387,10 +388,7 @@ nav .nav-bar-right .profile-icon img {
 .Home-container .right-home {
     position: sticky;
     top: 70px;
-   /*  display: flex;
-    align-items: center; */
     background-color: white;
-    /* justify-content: space-between; */
     margin-top: 10px;
     flex-basis: 25%; 
     padding: 10px 10px;
