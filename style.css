@@ -267,7 +267,7 @@ nav .nav-bar-right .profile-icon img {
     width: 100%;
 }
 
-.post-container .profile-post, .post-container .post-button {
+.post-container .profile-post, .post-container .post-button, .post-file .profile-post {
     display: flex;
     align-items: center;
     position: relative;
@@ -275,17 +275,17 @@ nav .nav-bar-right .profile-icon img {
     margin: 10px 0;
 }
 
-.post-container .profile-post p {
+.post-container .profile-post p, .post-file .profile-post p {
     color: gray;
     margin-left: 10px;
     text-align: center;
 }
 
-.post-container .profile-post img {
+.post-container .profile-post img, .post-file .profile-post img {
     border-radius: 50%;
     width: 40px;
 }
-.post-container .profile-post small {
+.post-container .profile-post small, .post-file .profile-post small {
     color: gray;
     position: absolute;
     left: 50px;
@@ -324,6 +324,41 @@ nav .nav-bar-right .profile-icon img {
     margin: 10px;
 }
 
+.post-file .profile-post-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.post-file .content-post {
+    width: 100%;
+}
+
+.post-file .content-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-file .icon-post ul {
+    display: flex;
+    align-items: center;
+   margin-right: 30px;
+}
+.post-file .icon-post ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 30px 10px 0;
+}
+
+.post-file .icon-post ul li img {
+    width: 30px;
+}
+
+.content-post .profile-post img {
+    border-radius: 50%;
+    width: 30px;
+}
 
 /* -----------RIGHT CONTENT------------------ */
 .Home-container .right-home {
