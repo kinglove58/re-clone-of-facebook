@@ -499,3 +499,13 @@ nav .nav-bar-right .profile-icon img {
 
 
 /* ------------------PROFILE PAGE STYLE -----------------*/
+.profile-container {
+    padding: 20px 15%;
+    color: #626262;
+}
+
+.profile-container .page-cover img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
