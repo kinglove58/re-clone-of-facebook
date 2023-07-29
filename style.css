@@ -502,6 +502,7 @@ nav .nav-bar-right .profile-icon img {
 .profile-container {
     padding: 20px 15%;
     color: #626262;
+    background-color: whitesmoke;
 }
 
 .profile-container .page-cover img {
@@ -514,29 +515,22 @@ nav .nav-bar-right .profile-icon img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .profile-details .profile-details-left {
-    display: inline-block;
-    align-items: center;
-    justify-content: flex-star; 
-}
-
-.profile-details-left .profile-list
-
-.profile-details .profile-details-left .profile-image {
-    width: 90px;
-    border-radius: 5px;
-}
-
-.profile-details .profile-details-left ul {
-    list-style: none;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-star; 
+    background-color: white;
 }
 
-.profile-details .profile-details-left ul li img {
+.profile-details-left .profile-list img {
+    width: 90px;
+}
+
+.profile-details-left .friend-photo img {
     border-radius: 50%;
-    width: 30px;
+    
 }
