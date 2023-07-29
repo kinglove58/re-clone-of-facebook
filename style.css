@@ -559,14 +559,14 @@ nav .nav-bar-right .profile-icon img {
 }
 
 .profile-container .profile-details-right button {
-    background: #1876f2;
     border: 0;
-    padding: 6px 10px;
     outline: 0;
-    margin-left: 10px;
-    border-radius: 3px;
-    color: white;
     cursor: pointer;
-    display: inline-flex;
+    padding: 6px 10px;
+    display: flex;
     align-items: center;
+    color: white;
+    background-color: #1876f2;
+    margin-left: 10px;
+    border-radius: 5px;
 }
