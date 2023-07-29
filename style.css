@@ -509,3 +509,34 @@ nav .nav-bar-right .profile-icon img {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
+.profile-container .profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-details .profile-details-left {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-star; 
+}
+
+.profile-details-left .profile-list
+
+.profile-details .profile-details-left .profile-image {
+    width: 90px;
+    border-radius: 5px;
+}
+
+.profile-details .profile-details-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-details .profile-details-left ul li img {
+    border-radius: 50%;
+    width: 30px;
+}
